@@ -7,6 +7,8 @@ using UsersBaseFC.Application.Interfaces;
 using UsersBaseFC.Application.Mapper;
 using UsersBaseFC.Infrastructure.Context;
 
+
+var myAllowSpecificOrigins = "myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,11 +21,19 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EFContext>
         (option => option.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy(name: myAllowSpecificOrigins,
+       builder =>
+       {
+           builder.WithOrigins("http://localhost:4200")
+          .AllowAnyMethod()
+          .AllowAnyOrigin();
+       });
+});
+
 builder.Services.AddTransient<IEFContext, EFContext>();
-
-
 builder.Services.AddTransient<Response>();
-
 builder.Services.AddAutoMapper(typeof(UserMapper));
 
 var assembly = AppDomain.CurrentDomain.GetAssemblies();
@@ -39,7 +49,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors(myAllowSpecificOrigins);
 app.UseAuthorization();
 
 app.MapControllers();
