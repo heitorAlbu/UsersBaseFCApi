@@ -1,8 +1,10 @@
-using AutoMapper;
+﻿using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using UsersBaseFC.Application.DTOs;
 using UsersBaseFC.Application.Interfaces;
+using UsersBaseFC.Application.Mapper;
 using UsersBaseFC.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,15 +24,8 @@ builder.Services.AddTransient<IEFContext, EFContext>();
 
 builder.Services.AddTransient<Response>();
 
+builder.Services.AddAutoMapper(typeof(UserMapper));
 
-var mapper = new MapperConfiguration(config =>
-{
-    config.AddMaps(typeof(Program).Assembly);
-});
-
-mapper.AssertConfigurationIsValid();
-var map = mapper.CreateMapper();
-builder.Services.AddSingleton(map);
 var assembly = AppDomain.CurrentDomain.GetAssemblies();
 builder.Services.AddMediatR(assembly);
 

@@ -27,28 +27,13 @@ namespace UsersBaseFC.Application.CQRS.Users.Commands.Register
         }
         public async Task<Response> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
-            var user = new User()
-            {
-                Name = request.Name,
-                Password = request.Password,
-                Email = request.Email,
-                Fone = request.Fone,
-                CPF = request.CPF,
-                BirthDate = Convert.ToDateTime(request.BirthDate),
-                InclusionDate = Convert.ToDateTime(request.InclusionDate),
-                ChangeDate = Convert.ToDateTime(request.ChangeDate),
-                MotherName = request.MotherName,
-                isActive = request.isActive
-            };
+            var user = mapper.Map<User>(request);
             await context.Users.AddAsync(user);
             var result = context.SaveChangesAsync(cancellationToken).Result;
-            //var user = mapper.Map<User>(request);
-
             if (result > 0)
             {
                 return await response.GenerateResponse(HttpStatusCode.Created, false, "Salvo com sucesso!");
             }
-
             return await response.GenerateResponse(HttpStatusCode.BadRequest, false, "Não foi possível criar o registro");
         }
     }
