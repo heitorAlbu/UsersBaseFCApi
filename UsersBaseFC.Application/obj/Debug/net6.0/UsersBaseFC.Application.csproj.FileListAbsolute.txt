@@ -1,0 +1,15 @@
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\UsersBaseFC.Application.deps.json
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\UsersBaseFC.Application.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\ref\UsersBaseFC.Application.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\UsersBaseFC.Application.pdb
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\UsersBaseFC.Domain.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\bin\Debug\net6.0\UsersBaseFC.Domain.pdb
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.csproj.AssemblyReference.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.AssemblyInfoInputs.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.AssemblyInfo.cs
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.csproj.CoreCompileInputs.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.csproj.CopyComplete
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\ref\UsersBaseFC.Application.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Application\obj\Debug\net6.0\UsersBaseFC.Application.pdb

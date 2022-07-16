@@ -1,0 +1,12 @@
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\bin\Debug\net6.0\UsersBaseFC.Domain.deps.json
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\bin\Debug\net6.0\UsersBaseFC.Domain.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\bin\Debug\net6.0\ref\UsersBaseFC.Domain.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\bin\Debug\net6.0\UsersBaseFC.Domain.pdb
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.csproj.AssemblyReference.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.AssemblyInfoInputs.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.AssemblyInfo.cs
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.csproj.CoreCompileInputs.cache
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\ref\UsersBaseFC.Domain.dll
+C:\Repositorios\CRUD_Ferreira_Costa\UsersBaseFC.com.br\UsersBaseFC.Domain\obj\Debug\net6.0\UsersBaseFC.Domain.pdb

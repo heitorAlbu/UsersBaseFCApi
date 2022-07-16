@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8924cfe8-9311-48b3-8a34-54e000962ddc": {
+      "ProjectGuid": "8924cfe8-9311-48b3-8a34-54e000962ddc",
+      "DisplayName": "UsersBaseFC.Application",
+      "ColorIndex": 0
+    },
+    "d1765f80-da35-4888-8435-94a4b2a83263": {
+      "ProjectGuid": "d1765f80-da35-4888-8435-94a4b2a83263",
+      "DisplayName": "UsersBaseFC.Domain",
+      "ColorIndex": 1
+    },
+    "38774c4e-34f6-4e48-9c78-80b07336586e": {
+      "ProjectGuid": "38774c4e-34f6-4e48-9c78-80b07336586e",
+      "DisplayName": "UsersBaseFC.Infrastructure",
+      "ColorIndex": 2
+    },
+    "3df56ee0-397c-457b-a8b4-4221130fa879": {
+      "ProjectGuid": "3df56ee0-397c-457b-a8b4-4221130fa879",
+      "DisplayName": "UsersBaseFC.WebApi",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
