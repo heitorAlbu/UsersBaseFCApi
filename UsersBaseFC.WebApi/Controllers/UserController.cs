@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UsersBaseFC.Application.CQRS.Users.Commands.Register;
+using UsersBaseFC.Application.CQRS.Users.Commands.Remove;
+using UsersBaseFC.Application.CQRS.Users.Commands.Update;
 using UsersBaseFC.Application.CQRS.Users.Queries.GetAll;
 using UsersBaseFC.Application.DTOs;
 
@@ -30,5 +32,16 @@ namespace UsersBaseFC.WebApi.Controllers
             return mediator.Send(command);
         }
 
+        [HttpPut]
+        public Task<Response> Put([FromBody] UpdateUserCommand command)
+        {
+            return mediator.Send(command);
+        }
+
+        [HttpDelete]
+        public Task<Response> Remove([FromBody] RemoveUserCommand command)
+        {
+            return mediator.Send(command);
+        }
     }
 }
