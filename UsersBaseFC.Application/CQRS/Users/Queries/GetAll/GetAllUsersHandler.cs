@@ -13,10 +13,9 @@ namespace UsersBaseFC.Application.CQRS.Users.Queries.GetAll
 {
     public class GetAllUsersHandler : IRequestHandler<GetAllUsersQuery, Response>
     {
-
         private readonly IMapper mapper;
         private readonly Response response;
-       private readonly IEFContext context;
+        private readonly IEFContext context;
 
         public GetAllUsersHandler(IMapper mapper, Response response, IEFContext context)
         {

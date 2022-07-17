@@ -20,6 +20,11 @@
       "ProjectGuid": "3df56ee0-397c-457b-a8b4-4221130fa879",
       "DisplayName": "UsersBaseFC.WebApi",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4

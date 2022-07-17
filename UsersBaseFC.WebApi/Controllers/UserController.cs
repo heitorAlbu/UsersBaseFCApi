@@ -5,6 +5,7 @@ using UsersBaseFC.Application.CQRS.Users.Commands.Register;
 using UsersBaseFC.Application.CQRS.Users.Commands.Remove;
 using UsersBaseFC.Application.CQRS.Users.Commands.Update;
 using UsersBaseFC.Application.CQRS.Users.Queries.GetAll;
+using UsersBaseFC.Application.CQRS.Users.Queries.GetById;
 using UsersBaseFC.Application.DTOs;
 
 namespace UsersBaseFC.WebApi.Controllers
@@ -24,6 +25,12 @@ namespace UsersBaseFC.WebApi.Controllers
         public Task<Response> GetAllUsers() 
         {
             return mediator.Send(new GetAllUsersQuery());
+        }
+        [HttpGet]
+        [Route("GetById")]
+        public Task<Response> GetById(string id)
+        {
+            return mediator.Send(new GetByIdUserQuery(id));
         }
 
         [HttpPost]
