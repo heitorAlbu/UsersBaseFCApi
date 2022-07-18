@@ -30,7 +30,7 @@ namespace UsersBaseFC.WebApi.Controllers
         [Route("GetById")]
         public Task<Response> GetById(string id)
         {
-            return mediator.Send(new GetByIdUserQuery(id));
+            return mediator.Send(new GetByIdUserQuery() {Id = id });
         }
 
         [HttpPost]

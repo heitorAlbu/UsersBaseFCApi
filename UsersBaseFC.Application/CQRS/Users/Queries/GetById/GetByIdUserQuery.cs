@@ -11,9 +11,9 @@ namespace UsersBaseFC.Application.CQRS.Users.Queries.GetById
     public class GetByIdUserQuery : IRequest<Response>
     {
         public string Id { get; set; }
-        public GetByIdUserQuery(string id)
+        public GetByIdUserQuery()
         {
-            this.Id = id;  
+           
         }
     }
 }
