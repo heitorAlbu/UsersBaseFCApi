@@ -45,7 +45,8 @@ namespace UsersBaseFC.WebApi.Controllers
             return mediator.Send(command);
         }
 
-        [HttpDelete]
+        [HttpPost]
+        [Route("Remove")]
         public Task<Response> Remove([FromBody] RemoveUserCommand command)
         {
             return mediator.Send(command);
