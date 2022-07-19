@@ -40,6 +40,7 @@ namespace UsersBaseFC.Application.Mapper
                 .ForMember(p => p.ChangeDate, opt => opt.MapFrom(p => p.ChangeDate.ToString()))
                 .ForMember(p => p.MotherName, opt => opt.MapFrom(p => p.MotherName))
                 .ForMember(p => p.isActive, opt => opt.MapFrom(p => p.isActive));
+               
 
             CreateMap<UpdateUserCommand, User>()
                 .ForMember(p => p.Id, opt => opt.Ignore())

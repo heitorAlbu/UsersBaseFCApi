@@ -17,6 +17,7 @@ namespace UsersBaseFC.Application.DTOs
         public string InclusionDate { get; set; }
         public string ChangeDate { get; set; }
         public string MotherName { get; set; }
+        public int Age { get; set; } 
         public bool isActive { get; set; }
 
     }

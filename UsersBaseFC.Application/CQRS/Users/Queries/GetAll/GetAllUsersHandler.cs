@@ -26,8 +26,22 @@ namespace UsersBaseFC.Application.CQRS.Users.Queries.GetAll
         public async Task<Response> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
         {
             var users = mapper.Map<List<UserDTO>>(context.Users.ToListAsync().Result);
-
+            users = CalculateAge(users);
             return await response.GenerateResponse(collection: users);
+        }
+
+        private List<UserDTO> CalculateAge(List<UserDTO> users)
+        {
+            foreach (var user in users)
+            {
+                DateTime.TryParse(user.BirthDate, out DateTime userBirthDate);
+                user.Age = DateTime.Now.Year - userBirthDate.Year;
+                if (DateTime.Now.DayOfYear < userBirthDate.DayOfYear) 
+                {
+                    user.Age = user.Age - 1;
+                }
+            }
+            return users;
         }
     }
 }
